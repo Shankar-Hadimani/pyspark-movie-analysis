@@ -1,0 +1,13 @@
+﻿{
+  "name": "HDInsightOnDemandLinkedService",
+  "properties": {
+    "type": "HDInsightOnDemand",
+    "typeProperties": {
+      "version": "3.2",
+      "clusterSize": 1,
+      "timeToLive": "00:10:00",
+      "osType": "linux",
+      "linkedServiceName": "AzureStorageLinkedService1"
+    }
+  }
+}
