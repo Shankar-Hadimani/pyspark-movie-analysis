@@ -1,0 +1,19 @@
+Spark Test
+===========
+Use the MovieLens 100K Dataset for this exercise. It can be downloaded from http://grouplens.org/datasets/movielens/.
+Dataset is available under http://files.grouplens.org/datasets/movielens/ml-1m.zip. 
+Please refer to the Read Me file at http://files.grouplens.org/datasets/movielens/ml-1m-README.txt for details about the data.
+
+Use Python (optionally with Pandas) to complete the following test. Your code should be in production quality. 
+
+1. Define the project folder structure and dependencies using Conda or Pipenv.
+2. Write Python code to generate the following outputs in the target directory inside the project.
+    A. A CSV file containing list of users with no of movies they rated and average rating per user.
+       CSV file should contain 3 columns, ie: UserId, No of Movies, Average Rating. Column headers are not required. 
+    B. A CSV file containing list of unique Genres and no of movies under each genres
+        CSV file should contain 2 columns, ie: Genres, No of Movies. Column headers are not required. 
+    C. Generate a parquet file that contain the top 100 movies based on their ratings. This should have fields, Rank (1-100), Movie Id, Title, Average Rating. Rank 1 is the most popular movie. 
+
+Create a zip file that contains your project including any test data you used and send it to us.
+Do not include the large data files because it can make the zip file bigger. 
+You do not need to include any output files since we can generate them by running your code.
