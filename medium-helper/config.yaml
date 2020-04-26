@@ -1,0 +1,10 @@
+database:
+ name: database_name_hello
+ user: !ENV ${DB_USER}
+ password: !ENV ${DB_PASS}
+ host: !ENV ${DB_HOST}
+ port: 5432
+ws:
+ user: !ENV ${WS_USER}
+ password: !ENV ${WS_PASS}
+ host: !ENV ‘http://${CURR_ENV}.org/datasets/movielens/ml-1m-README.txt'
